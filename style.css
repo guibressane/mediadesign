@@ -17,3 +17,134 @@ GeneratePress is distributed under the terms of the GNU GPL
 GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2020 Automattic, Inc.
 */
 
+/* Home construida no buider gutenberg  */
+
+
+.wp-block-columns, .wp-block-cover {
+	  padding:1.5em;
+	  margin-bottom: 2em;
+}
+
+.hero-9 .column-1 {
+    padding:3em;
+}
+
+.hero-6 .wp-block-button{
+   font-size:14px !important;
+}
+
+.hero-6 {
+  padding-top: 1em;
+  padding-bottom: 2em;
+  z-index:-1;
+}
+.hero-6 .columns-2{
+  max-width:928px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index:1;
+}
+.hero-6 .columns-1{
+  margin: 0 auto;
+    max-width: 72%;
+}
+ .acf-pricing-2 {
+  max-width:80%;
+  margin:auto;
+}
+ .contact-2  {
+  max-width:80% !important;
+  margin:0 auto;
+  padding:0 !important;
+}
+
+.black {
+	color: black;
+}
+
+.largura {
+	max-width: 350px;
+	border-radius: 20px;
+}
+
+.caixa-preco {
+	border-radius: 2em ;
+	background-color: #fff;
+	padding: 8% 2%;
+	box-shadow: 6px 15px grey;
+	margin-top: 10%;
+	min-height: 460px;
+}
+
+.caixa-preco-2 {
+	border-radius: 2em ;
+	background-color: #fff;
+	padding: 9% 2%;
+	box-shadow: 6px 15px grey;
+	min-height: 500px;
+}
+
+.caixa-preco ul, .caixa-preco-2 ul {
+	color: #444;
+	font-size: 0.9em;
+	margin: 0.5em 0 1.5em 18%;
+	list-style: none;
+}
+
+.cifrao, .cifrao-anual {
+	font-size: 1.2em;
+	color: #999;
+	padding-right:0.2em;
+}
+
+.valor {
+	font-size: 4em;
+	color: #055c84;
+}
+
+.zeros {
+	font-size: 1.4em;
+	color: #055c84;
+}
+
+.mes {
+		font-size: 1.2em;
+		color: #999;
+		margin-left: 0.2em;
+}
+
+.ano {
+		font-size: 20px;
+		color: #999;
+		padding-right:0.2em;
+}
+
+.center {
+	text-align: center;
+}
+
+.wp-block-group__inner-container {
+	padding: 0;
+}
+
+.separate-containers .inside-article, .separate-containers .comments-area, .separate-containers .page-header, .separate-containers .paging-navigation, .one-container .site-content, .inside-page-header, .wp-block-group__inner-container {
+	padding: 0;
+}
+
+.entry-content > [class*="wp-block-"]:not(:last-child) {
+	margin-bottom:0;
+}
+
+.wp-block-cover-image .wp-block-cover__inner-container, .wp-block-cover .wp-block-cover__inner-container {
+    width: calc(100%);
+}
+
+/* para ajeitar coluna de precos em celulares */
+@media (max-width: 599px){
+.wp-block-column {
+    margin-bottom: 2em;
+}
+}
+
+
