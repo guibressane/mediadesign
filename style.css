@@ -2,7 +2,7 @@
 Theme Name: Media Design
 Template: generatepress
 Theme URI: https://generatepress.com
-Author: media design
+Author: Media
 Author URI: https://mediadesign.dev
 Description: Tema filho do tema GeneratePress para o site do Media Design Dev
 Version: 0.1
@@ -16,6 +16,15 @@ GeneratePress is distributed under the terms of the GNU GPL
 
 GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2020 Automattic, Inc.
 */
+
+.logo-icon {
+	width: 50px;
+    height: 49px;
+    background: url(images/m-favicon.png) no-repeat scroll center -1px transparent;
+    margin: 5px auto 0;
+    background-size: contain;
+    background-color: white;
+}
 
 /* Home construida no buider gutenberg  */
 
@@ -65,11 +74,9 @@ GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2020 Auto
 
 .largura {
 	max-width: 350px;
-	border-radius: 20px;
 }
 
 .caixa-preco {
-	border-radius: 2em ;
 	background-color: #fff;
 	padding: 8% 2%;
 	box-shadow: 6px 15px grey;
@@ -78,7 +85,6 @@ GeneratePress is based on Underscores http://underscores.me/, (C) 2012-2020 Auto
 }
 
 .caixa-preco-2 {
-	border-radius: 2em ;
 	background-color: #fff;
 	padding: 9% 2%;
 	box-shadow: 6px 15px grey;
